@@ -1,6 +1,7 @@
+require 'pry'
 class GasStation
 
-  attr_reader :brand, :unleaded_price
+  attr_accessor :brand, :unleaded_price
 
   def initialize(brand, unleaded_price)
     @brand = brand
